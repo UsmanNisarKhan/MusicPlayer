@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="#3f4c6b">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/image"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/song_Name"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@+id/image"
+            android:layout_toLeftOf="@+id/menu"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:id="@+id/menu"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            android:padding="5dp"/>
+
+
+</RelativeLayout>
